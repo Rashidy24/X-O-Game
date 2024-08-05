@@ -70,9 +70,41 @@ body {
 }
 
 @media (max-width: 450px) {
-    
+    .game {
+        margin-top: 50%;
+        height: fit-content ;
+        padding-bottom: 25px;
+    }
     .square {
         width: 100px !important;
         height: 100px !important;
+    }
+
+    .none {
+        background-color: #040;
+        color: #fff;
+        border: none;
+        margin-top: 50px;
+        margin-left: 50%;
+        transform: translatex(-50%);
+        text-align: center;
+        border: none;
+        padding: 10px 20px;
+        text-transform: capitalize;
+        font-size: 16px;
+        font-weight: 500;
+        cursor: pointer;
+        -webkit-transform: translatex(-50%);
+        -moz-transform: translatex(-50%);
+        -ms-transform: translatex(-50%);
+        -o-transform: translatex(-50%);
+}
+    .none:hover {
+        background-color: darkcyan;
+    }
+}
+@media (min-width: 450px) {
+    .none {
+        display: none;
     }
 }

@@ -60,3 +60,9 @@ let squars = [];
                 }
                 winner();
             }
+
+let reload = document.querySelector('.none');
+
+reload.addEventListener('click', function(){
+    location.reload()
+})
